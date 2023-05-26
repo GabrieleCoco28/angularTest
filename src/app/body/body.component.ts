@@ -1,5 +1,4 @@
 import { AfterViewInit, Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { HeaderComponent } from '../header/header.component';
 import { HeaderService } from '../header.service';
 
 @Component({

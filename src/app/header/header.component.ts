@@ -1,5 +1,4 @@
-import { AfterContentInit, AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { HeaderService } from '../header.service';
 
 @Component({
@@ -13,7 +12,7 @@ export class HeaderComponent{
   @ViewChild('about') about!: ElementRef<HTMLElement>;
   @ViewChild('contact') contact!: ElementRef<HTMLElement>;
 
-  constructor(private route: ActivatedRoute, private headerService: HeaderService ) {
+  constructor(private headerService: HeaderService ) {
     this.headerService.setHeader(this);
   }
 
