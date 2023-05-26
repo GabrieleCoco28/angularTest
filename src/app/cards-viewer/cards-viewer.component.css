@@ -5,16 +5,11 @@
 }
 @media (min-width: 80em) {
     .grid {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 3em;
     }
 }
- 
 @media (min-width: 100em) {
     .grid {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 3em;
     }
 }

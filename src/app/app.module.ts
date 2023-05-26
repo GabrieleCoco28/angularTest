@@ -5,6 +5,8 @@ import { HttpClientModule } from '@angular/common/http'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -31,6 +33,8 @@ import { CardComponent } from './card/card.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
+    MatCardModule,
+    MatInputModule,
     HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: BodyComponent },

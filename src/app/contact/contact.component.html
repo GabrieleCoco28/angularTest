@@ -1,25 +1,70 @@
 <h1>Contact us</h1>
 <div id="contact">
-    <p>Siamo felici di poter rispondere alle tue domande e fornire ulteriori informazioni. Non esitare a contattarci utilizzando i seguenti metodi:</p>
-    <h3>Indirizzo</h3>
-    <p>
-        123 Via Principale,<br>
-        Città, CAP 12345,<br>
-        Paese
-    </p>
-    <h3>Recapiti Telefonici</h3>
-    <p>
-        Telefono: +XX XXXX XXXXXXX <br>
-        Fax: +XX XXXX XXXXXX
-    </p>
-    <h3>Indirizzo Email</h3>
-    <p>
-        Email: <a href="mailto:#">@nomedelsito.com</a>
-    </p>
-    <h3>Orari di Ufficio</h3>
-    <p>
-        Dal lunedì al venerdì: 9:00 - 17:00 <br>
-        Sabato e domenica: Chiuso
-    </p>
-</div>
+    <p>Siamo felici di poter rispondere alle tue domande e fornire ulteriori informazioni. Non esitare a contattarci
+        utilizzando i seguenti metodi:</p>
+    <mat-card class="card">
+        <mat-card-header>
+            <div mat-card-avatar class="post-box-icon"><mat-icon>markunread_mailbox</mat-icon></div>
+            <mat-card-title>Indirizzo</mat-card-title>
+        </mat-card-header>
+        <mat-card-subtitle>
+            123 Via Principale,
+            Città, CAP 12345,
+            Paese
+        </mat-card-subtitle>
+    </mat-card>
 
+    <mat-card class="card">
+        <mat-card-header>
+            <div mat-card-avatar class="phone-icon"><mat-icon> phone</mat-icon></div>
+            <mat-card-title>Recapiti Telefonici</mat-card-title>
+        </mat-card-header>
+        <mat-card-subtitle>
+            Telefono: <a href="tel:+XX XXXX XXXXXXX">+XX XXXX XXXXXXX</a> <br>
+            Fax: +XX XXXX XXXXXX
+        </mat-card-subtitle>
+    </mat-card>
+
+    <mat-card class="card">
+        <mat-card-header>
+            <div mat-card-avatar class="mail-icon"><mat-icon> mail_outline</mat-icon></div>
+            <mat-card-title>Indirizzo Email</mat-card-title>
+        </mat-card-header>
+        <mat-card-subtitle>
+            Email: <a href="mailto:email@nomedelsito.com">email@nomedelsito.com</a>
+        </mat-card-subtitle>
+    </mat-card>
+
+    <mat-card class="card">
+        <mat-card-header>
+            <div mat-card-avatar class="clock-icon"><mat-icon>access_time</mat-icon></div>
+            <mat-card-title>Orari di Ufficio</mat-card-title>
+        </mat-card-header>
+        <mat-card-subtitle>
+            Dal lunedì al venerdì: 9:00 - 17:00 <br>
+            Sabato e domenica: Chiuso
+        </mat-card-subtitle>
+    </mat-card>
+
+    <mat-card class="card">
+        <mat-card-header>
+            <div mat-card-avatar class="mail-icon"><mat-icon> message</mat-icon></div>
+            <mat-card-title>Contattaci</mat-card-title>
+        </mat-card-header>
+        <form class="form">
+            <mat-form-field class="input-name">
+                <mat-label>Nome</mat-label>
+                <input matInput placeholder="Ex. Mario">
+            </mat-form-field>
+            <mat-form-field class="input-surname">
+                <mat-label>Cognome</mat-label>
+                <input matInput placeholder="Ex. Rossi">
+            </mat-form-field>
+    
+            <mat-form-field class="input-message">
+                <mat-label>Messaggio</mat-label>
+                <textarea matInput style="resize: none;"></textarea>
+            </mat-form-field>
+        </form>
+    </mat-card>
+</div>
