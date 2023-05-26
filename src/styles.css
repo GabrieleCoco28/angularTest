@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: lightgray;
+}
+main {
+    position: relative;
+}
+body {
+    background-color: rgb(45, 45, 45);
+    padding: 0;
+    margin: 0;
+}

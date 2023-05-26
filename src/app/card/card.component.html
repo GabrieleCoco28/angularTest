@@ -1,0 +1,8 @@
+<div *ngIf="card" class="card">
+    <img [src]="card.img" alt="screenshot" class="img">
+    <div class="project">
+        <h2 class="title">{{card.title}}</h2>
+        <p class="description">{{card.description}}</p>
+        <a [href]="card.link"><input type="button" class="link" [value]="card.web ? 'USA NEL BROWSER' : 'SCARICA'"></a>
+    </div>
+</div>

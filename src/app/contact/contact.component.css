@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+    color: lightgray;
+}
+#contact {
+    padding: .5em;
+    text-align: center;
+    font-size: large;
+}

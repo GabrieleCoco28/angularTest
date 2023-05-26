@@ -1,0 +1,63 @@
+.card {
+    --size: 30em;
+    --border-radius: .5em;
+}
+.card {
+    display: grid;
+    margin: auto;
+    border-radius: var(--border-radius);
+    grid-template-columns: 1fr;
+    width: var(--size);
+    text-align: center;
+    box-shadow: 0px 0px 5px 5px #111;
+    transition: box-shadow 0.5s;
+}
+.card:hover {
+    box-shadow: 10px 10px 25px 5px #111;
+}
+.img {
+    object-fit: cover;
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: var(--border-radius);
+    width: var(--size);
+    height: auto;
+}
+.project {
+    color: white;
+    width: 100%;
+    border-radius: var(--border-radius);
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    padding-top: 3em;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity .2s;
+}
+.card:hover .project {
+    opacity: 1;
+}
+a {
+    text-decoration: none;
+}
+.link {
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-size: 1rem;
+    font-weight: 700;
+    height: auto;
+    padding: 1.5em;
+    text-decoration: none;
+    width: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}

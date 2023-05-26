@@ -1,0 +1,93 @@
+[
+    {
+        "img": "../../assets/images/minecraft-clone.png",
+        "title": "Minecraft-Clone",
+        "description": "Web, Desktop, Mobile",
+        "link": "minecraft-clone/minecraft-clone.html",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/fusc la madam.png",
+        "title": "Fusc la Madam",
+        "description": "Windows",
+        "link": "fusc la madam/fusc la madam 0.07.zip",
+        "web": false
+    },
+    {
+        "img": "../../assets/images/platform.jpeg",
+        "title": "Platform",
+        "description": "Android",
+        "link": "platform/platform.apk",
+        "web": false
+    },
+    {
+        "img": "../../assets/images/fb.png",
+        "title": "Flappy Bird Wii (Bad)",
+        "description": "Wii",
+        "link": "https://github.com/GabrieleCoco28/Flappy-Bird-Wii-Bad-",
+        "web": false
+    },
+    {
+        "img": "../../assets/images/meteo.png",
+        "title": "Meteo",
+        "description": "Web, Desktop, Mobile",
+        "link": "api meteo/",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/compiler.png",
+        "title": "Compilatore BrainF**k",
+        "description": "Web, Desktop, Mobile",
+        "link": "BrainFuck Compiler/",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/calcoloCodiceFiscale.png",
+        "title": "Calcolatore di codice fiscale",
+        "description": "Web, Desktop, Mobile",
+        "link": "calcolo codice fiscale/",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/assistente vocale.png",
+        "title": "Assistente Vocale",
+        "description": "Web, Desktop, Mobile (solo chrome)",
+        "link": "assistente vocale/",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/car physics.png",
+        "title": "Car phyisics demo",
+        "description": "Web, Desktop, Mobile",
+        "link": "Car Physics/",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/Ar Sole e Terra.png",
+        "title": "Realtà Aumentata(AR) Sole, Terra e Luna",
+        "description": "Mobile",
+        "link": "./Ar Sole e Terra",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/cubo.png",
+        "title": "Cubo di Rubik",
+        "description": "Web, Desktop, Mobile",
+        "link": "./cubo di rubik",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/marching.png",
+        "title": "Marching squares demos",
+        "description": "Web, Desktop, Mobile",
+        "link": "./marching squares",
+        "web": true
+    },
+    {
+        "img": "../../assets/images/subnetCalculator.png",
+        "title": "Calcolatore subnet",
+        "description": "Web, Desktop, Mobile",
+        "link": "./Subnetting",
+        "web": true
+    }
+]

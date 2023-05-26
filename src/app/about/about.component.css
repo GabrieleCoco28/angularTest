@@ -1,0 +1,10 @@
+h1 {
+    text-align: center;
+    color: lightgray;
+}
+#presentation {
+    font-size: large;
+    line-height: 2em;
+    padding: 2em;
+    text-align: justify;
+}
