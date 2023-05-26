@@ -9,7 +9,7 @@ import { HeaderService } from '../header.service';
 })
 export class BodyComponent implements AfterViewInit{
   constructor(private header: HeaderService) {}
-
+  helloWorld: string = "Hello World!"
   ngAfterViewInit(): void {
     this.header.getHeader().setHomeActive();
   }
